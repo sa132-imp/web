@@ -28,7 +28,7 @@ var tabulate = function (data,columns) {
     return table;
   }
   
-  d3.csv('assets/data/cal.csv',function (data) {
+  d3.csv('cal.csv',function (data) {
       var columns = ['day','date','time','url','session']
     tabulate(data,columns)
   })
