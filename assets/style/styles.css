@@ -1,4 +1,4 @@
-/** PAGE STYLES **/
+/*** ALL PAGE STYLES ***/
 
 html {
   scrollbar-width: none;
@@ -13,116 +13,36 @@ body {
 }
 htl {
   position: absolute;
-  top: 4%;
-  left: 2%;
+  top: 2vw;
+  left: 2vw;
   font: bold 5vw sans-serif;
+  color:white;
+}
+htm {
+  position: absolute;
+  top: 7vw;
+  left: 28vw;
+  font: bold 5vw sans-serif;
+  color:white;
 }
 h2 {
   font: 1.3vw sans-serif;
 }
-
-/** TRAINING OFFER CARDS **/
-.wrap{
-  width: 100%;
-  position: relative;
+h3 {
+  transform: scale(1.6);
+}
+.blank {
+  background-color: #005eb8;
 }
 
-p{
-color: #425563;
-display: block;
-padding-top: 1%;
-}
-
-.container-cards{
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 1vw;
-  font-weight: 100;
-  color: #425563;
-}
-
-.container-cards .card{
-  position: relative;
-  cursor: crosshair;
-}
-
-.container-cards .card .face{
-  width: 17vw;
-  height: 9vw;
-  transition: 0.5s;
-}
-
-.container-cards .card .face.face1{
-  position: relative;
-  background:#ffe5a2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(6.5vw);
-}
-
-.container-cards .card:hover .face.face1{
-  background: #FFB901;
-  transform: translateY(0);
-}
-
-.container-cards .card .face.face1 .content{
-  opacity: 0.7;
-  transition: 0.5s;
-}
-
-.container-cards .card:hover .face.face1 .content{
-  opacity: 1;
-}
-
-.container-cards .card .face.face1 .content h3{
-  margin: 0.1vw 0 0;
-  padding: 0;
-  color: #425563;
-  text-align: center;
-  font-size: 1.5vw;
-}
-
-.container-cards .card .face.face2{
-  position: relative;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3vw 1vw 1vw 1vw;
-  box-sizing: border-box;
-  box-shadow: 0 1vw 1vw rgba(0, 0, 0, 0.5);
-  transform: translateY(-2.6vw);
-}
-
-.container-cards .card:hover .face.face2{
-  transform: translateY(-2.5vw);
-}
-
-.container-cards .card .face.face2 .content p{
-  margin: 0;
-  padding: 0;
-}
-
-/** LOGO BLINDS **/
+/********** SECTION 1 LOGO BLINDS **********/
 
 .frame {
   position: absolute;
-  /*top: 28%;
-  left: 52.5%;  
-  width: 300px;
-  height: 200px;*/
-
-  top: 38%;
-  left: 17%;
-  width: 15%;
-  height: 22%;
-
-  margin-top: -200px;
-  margin-left: -200px;
+  top: 15vw;
+  left: 40vw;
+  width: 20vw;
+  height: 13vw;
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -154,7 +74,7 @@ figure .image-2 {
   position: absolute;
   top: 0;
   opacity: 0;
-  background-image: url("../images/bg1.png");
+  background-image: url("../images/SPC.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,9 +128,181 @@ figure .image-2:nth-child(9) {
   transform: translateY(-60px);
 }
 
+/********** SECTION TWO TRAINING OFFER CARDS **********/
+.wrap{
+  width: 100%;
+  position: relative;
+}
+p{
+color: #425563;
+display: block;
+padding-top: 1%;
+}
+.container-cards{
+  width: 95%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1vw;
+  font-weight: 100;
+  color: #425563;
+}
+.container-cards .card{
+  position: relative;
+  cursor: crosshair;
+}
+.container-cards .card .face{
+  width: 18vw;
+  height: 10vw;
+  transition: 0.5s;
+}
+.container-cards .card .face.face1{
+  position: relative;
+  background:#ffe5a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform:translateY(7.5vw);
+}
+.container-cards .card:hover .face.face1{
+  background: #FFB901;
+  transform: scaleY(40%) scaleX(40%) translateY(66%) translateX(-60%);
+}
+.container-cards .card .face.face1 .content{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.container-cards .card:hover .face.face1 .content{
+  opacity: 1;
+}
+.container-cards .card .face.face1 .content h3{
+  margin: 0.1vw 0 0;
+  padding: 0;
+  color: #425563;
+  text-align: center;
+  font-size: 1.5vw;
+}
+.container-cards .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw 1vw 1vw 1vw;
+  box-sizing: border-box;
+  box-shadow: 0 1vw 1vw rgba(0, 0, 0, 0.5);
+  transform: translateY(-2.6vw);
+}
+.container-cards .card:hover .face.face2{
+  transform: translateY(-2.5vw);
+}
+.container-cards .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+/********** SECTION THREE TABLE STYLES **********/
+
+table {
+  table-layout: fixed;
+  width: 73%;
+  border-collapse: collapse;
+  border: 1px solid #b3bac0;
+  font: 1.2vw sans-serif;
+  position: absolute;
+  top: 9vw;
+  left: 2%;
+  overflow-x: auto;
+}
+thead th:nth-child(1) {
+  width: 17%;
+}
+thead th:nth-child(2) {
+  width: 10%;
+}
+thead th:nth-child(3) {
+  width: 19%;
+}
+thead th:nth-child(4) {
+  width: 8%;
+}
+thead th:nth-child(5) {
+  width: 19%;
+}
+th {
+  padding: 2px;
+  border: 1px solid #b3bac0;
+  background-color: #425563;
+  font-weight: bolder;
+}
+td {
+  padding: 2px;
+  border: 1px solid #b3bac0;
+}
+/** TABLE ZEBRA STRIPING **/
+tbody tr:nth-child(odd) {
+background-color: #6482b8;
+}
+tbody tr:nth-child(even) {
+background-color: #98aad0;
+}
+table {
+background-color: #6482b8;
+}
+
+/********** SECTION FOUR TWITTER **********/
+
+.twitter-top {
+  border-collapse: collapse;
+  border: 1px solid #99aebb;
+  position: absolute;
+  width: 60vw;
+  height: 23.5vw;
+  top: 9vw;
+  left: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.twitter-top-SR, .twitter-top-AS, .twitter-top-MC {
+  width: 30%;
+  border-collapse: collapse;
+  border: 1px solid #99aebb;
+  font: 1.3vw sans-serif;
+  position: relative;
+ /* max-width: 20vw;
+  max-height: 30vw;*/
+}
+.twitter-bottom {
+  border-collapse: collapse;
+  border: 1px solid #99aebb;
+  position: absolute;
+  width: 60vw;
+  height: 2.5vw;
+  top: 34vw;
+  left: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.twitter-bottom-SR, .twitter-bottom-AS, .twitter-bottom-MC {
+  width: 30%;
+  border-collapse: collapse;
+  border: 1px solid tom;
+  font: 1.3vw sans-serif;
+  position: relative;
+}
+.info {
+  width: 60vw;
+  border-collapse: collapse;
+  border: 1px solid #99aebb;
+  font: 1.3vw sans-serif;
+  position: absolute;
+  top: 38vw;
+  left: 2vw;
+}
 
 
-/** SCROLLER **/
+/*** ALL SCROLLER ***/
 
 :root {
     --color-white: #fff;
@@ -227,9 +319,6 @@ figure .image-2:nth-child(9) {
       transform: translateY(0px);
     }
   }
-
-/*html/body woz ere*/
-
   body::-webkit-scrollbar {
     display: none;
   }
@@ -297,7 +386,7 @@ figure .image-2:nth-child(9) {
     animation: pulse 1.4s linear infinite normal;
   }
 
-/** SECTION / PAGES **/
+/*** ALL SECTION LAYOUT ***/
 
   .layout .s1 {
     background-color: #005eb8;
@@ -310,14 +399,14 @@ figure .image-2:nth-child(9) {
   }
   .layout .s3 {
     background-color: #768692;
-    z-index: 1;
-  }
-  .layout .s4 {
-    background-color: #0aa499;
     z-index: 2;
   }
+  .layout .s4 {
+    background-color: #001a47;
+    z-index: 1;
+  }
   .layout .s5 {
-    background-color: #1aada3;
+    background-color: #003087;
     z-index: 1;
   }
   .layout .s6 {
@@ -325,7 +414,7 @@ figure .image-2:nth-child(9) {
     z-index: 1;
   }
   .layout .s7 {
-    background-color: #1aada3;
+    background-color: #0aa499;
     z-index: 1;
   }
   .layout .s8 {
@@ -341,89 +430,8 @@ figure .image-2:nth-child(9) {
     z-index: 1;
   }
 
-/** TABLE STYLES **/
 
-table {
-    table-layout: fixed;
-    width: 80%;
-    border-collapse: collapse;
-    border: 1px solid #b3bac0;
-    font: 1.3vw sans-serif;
-    position: absolute;
-    top: 20%;
-    left: 2%;
-    overflow-x: auto;
-  }
-  
-  thead th:nth-child(1) {
-    width: 21%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 10%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 23%;
-  }
-  
-  thead th:nth-child(4) {
-    width: 5%;
-  }
-
-  thead th:nth-child(5) {
-    width: 21%;
-  }
-
-  th {
-    padding: 2px;
-    border: 1px solid #b3bac0;
-    background-color: #425563;
-    font-weight: bolder;
-  }
-
-  td {
-    padding: 2px;
-    border: 1px solid #b3bac0;
-  }
-
-  /** TABLE ZEBRA STRIPING **/
-
-tbody tr:nth-child(odd) {
-  background-color: #6482b8;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #98aad0;
-}
-
-tbody tr {
-}
-
-table {
-  background-color: #6482b8;
-}
-/*
-
-
-tbody tr:nth-child(odd) {
-    background-color: #a27345;
-  }
-  
-  tbody tr:nth-child(even) {
-    background-color: #dba776;
-  }
-  
-  tbody tr {
-    background-image: url(noise.png);
-  }
-  
-  table {
-    background-color: #a27345;
-  }
-*/
-
-/** RESPONSIVE **/
+/*** ALL RESPONSIVE ***/
   /* MOBILE */
   @media screen and (max-width: 576px) {
     body::-webkit-scrollbar {
@@ -441,67 +449,7 @@ tbody tr:nth-child(odd) {
     }
   }
 
-/** TWITTER **/
 
-.twitter-top {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  position: relative;
-  max-width: 30vw;
-  max-height: 30vw;
-  top: 20%;
-  left: 2%;
-}
-.twitter-top-SR {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 1.3vw sans-serif;
-  position: relative;
-  max-width: 30vw;
-  max-height: 30vw;
-
-}
-
-.twitter-top-AS {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 24px sans-serif;
-  position: relative;
-  max-width: 400px;
-  max-height: 500px;
-}
-
-.twitter-top-MC {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 24px sans-serif;
-  position: relative;
-  max-width: 400px;
-  max-height: 500px;
-}
-
-
-/*
-.twitter.twitter-topSR {
-  height: 30%;
-  width: 30%;
-  border: 1px solid pink;
-}
-*/
-.info {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 24px sans-serif;
-  position: relative;
-  left: 82%;
-}
-
-*/
 
 
 
@@ -591,6 +539,3 @@ body {
   background-size: cover;} 
 
 */
-  .blank {
-    background-color: #005eb8;
-  }
