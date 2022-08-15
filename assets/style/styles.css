@@ -258,7 +258,7 @@ background-color: #6482b8;
   border: 1px solid #99aebb;
   position: absolute;
   width: 60vw;
-  height: 23.5vw;
+  height: 28.3vw;
   top: 9vw;
   left: 2vw;
   display: flex;
@@ -272,33 +272,39 @@ background-color: #6482b8;
   position: relative;
  /* max-width: 20vw;
   max-height: 30vw;*/
+  height: 28.2vw;
 }
 .twitter-bottom {
   border-collapse: collapse;
   border: 1px solid #99aebb;
   position: absolute;
   width: 60vw;
-  height: 2.5vw;
-  top: 34vw;
+  height: 2.1vw;
+  top: 38vw;
   left: 2vw;
   display: flex;
   justify-content: space-between;
 }
+
 .twitter-bottom-SR, .twitter-bottom-AS, .twitter-bottom-MC {
   width: 30%;
   border-collapse: collapse;
-  border: 1px solid tom;
+  border: 1px solid tomato;
   font: 1.3vw sans-serif;
   position: relative;
+  left: 0vw;
 }
+
 .info {
   width: 60vw;
   border-collapse: collapse;
   border: 1px solid #99aebb;
   font: 1.3vw sans-serif;
   position: absolute;
-  top: 38vw;
+  top: 40.8vw;
   left: 2vw;
+  height: 3vw;
+  text-align: center;
 }
 
 
