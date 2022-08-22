@@ -11,6 +11,11 @@ body {
   overflow: hidden scroll;
   -ms-overflow-style: none;
 }
+
+a { 
+  color: inherit; 
+}
+
 htl {
   position: absolute;
   top: 2vw;
@@ -25,6 +30,24 @@ htm {
   font: bold 5vw sans-serif;
   color:white;
 }
+em {
+  position: absolute;
+  top: 1.4vw;
+  left: 12.8vw;
+  font-size: 1.5vw;
+  font-family: 'Franklin Gothic Book';
+  font-weight:100;
+  color: white;
+  font-style: normal;
+}
+em:hover {
+  position: absolute;
+  top: 1.4vw;
+  left: 13vw;
+  color: hotpink;
+}
+
+
 h2 {
   font: 1.3vw sans-serif;
 }
@@ -253,57 +276,128 @@ background-color: #6482b8;
 
 /********** SECTION FOUR TWITTER **********/
 
-.twitter-top {
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
+.twitter-follow {
   position: absolute;
-  width: 60vw;
-  height: 28.3vw;
-  top: 9vw;
+  width: 24vw;
+  height: 4.8vw;
+  top: 10vw;
   left: 2vw;
-  display: flex;
-  justify-content: space-between;
-}
-.twitter-top-SR, .twitter-top-AS, .twitter-top-MC {
-  width: 30%;
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 1.3vw sans-serif;
-  position: relative;
- /* max-width: 20vw;
-  max-height: 30vw;*/
-  height: 28.2vw;
-}
-.twitter-bottom {
-  border-collapse: collapse;
-  border: 1px solid #99aebb;
-  position: absolute;
-  width: 60vw;
-  height: 2.1vw;
-  top: 38vw;
-  left: 2vw;
-  display: flex;
-  justify-content: space-between;
+  font: 1.8vw sans-serif;
 }
 
-.twitter-bottom-SR, .twitter-bottom-AS, .twitter-bottom-MC {
-  width: 30%;
+.twitter-follow-left {
   border-collapse: collapse;
-  border: 1px solid tomato;
-  font: 1.3vw sans-serif;
-  position: relative;
+  /*border-right: 1px solid white;*/
+  background-image: url("../images/followL.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
   left: 0vw;
 }
 
-.info {
-  width: 60vw;
+.twitter-follow-mid {
   border-collapse: collapse;
-  border: 1px solid #99aebb;
-  font: 1.3vw sans-serif;
+  border-left: 1px solid white;
+  background-image: url("../images/followM.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
-  top: 40.8vw;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
+  left: 8vw;
+}
+
+.twitter-follow-right {
+  border-collapse: collapse;
+  border-left: 1px solid white;
+  background-image: url("../images/followR.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
+  left: 16vw;
+}
+
+.twitter-follow-left:hover {
+  border-collapse: collapse;
+  /*border-right: 1px solid white;*/
+  background-image: url("../images/followSAM.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
+  left: 0vw;
+}
+
+.twitter-follow-mid:hover {
+  border-collapse: collapse;
+  border-left: 1px solid white;
+  background-image: url("../images/followADAM.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
+  left: 8vw;
+}
+
+.twitter-follow-right:hover {
+  border-collapse: collapse;
+  border-left: 1px solid white;
+  background-image: url("../images/followMATT.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 8vw;
+  height: 4.8vw;
+  top: 0vw;
+  left: 16vw;
+}
+
+.twitter-feed {
+  position: absolute;
+  /*width: 20.7vw;
+  height: 23.5vw;*/
+  width: 450px;
+  height: 500px;
+  top: 17vw;
   left: 2vw;
-  height: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.futures {
+  font: 1.3vw sans-serif;
+  background-image: url("../images/futures.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 10vw;
+  left: 34vw;
+  width: 43vw;
+  height: 23.3vw;
+  text-align: center;
+}
+
+.contact {
+  font: 1.3vw sans-serif;
+  background-image: url("../images/email.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 38.5vw;
+  left: 34vw;
+  width: 43vw;
+  height: 4.3vw;
   text-align: center;
 }
 
