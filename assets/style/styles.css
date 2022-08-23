@@ -365,10 +365,10 @@ background-color: #6482b8;
 
 .twitter-feed {
   position: absolute;
-  /*width: 20.7vw;
-  height: 23.5vw;*/
+  width: 100vw;
+  /*height: 23.5vw;
   width: 450px;
-  height: 500px;
+  height: 500px;*/
   top: 17vw;
   left: 2vw;
   display: flex;
