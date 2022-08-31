@@ -30,6 +30,12 @@ htm {
   font: bold 5vw sans-serif;
   color:white;
 }
+htp {
+  font: bold 4vw sans-serif;
+  color:grey;
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+}
 em {
   position: absolute;
   top: 1.4vw;
