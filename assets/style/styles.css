@@ -161,6 +161,7 @@ figure .image-2:nth-child(9) {
   display: none;
   top: 20vw;
   left: 2vw;
+  transform: rotate(90deg);
 }
 
 /********** SECTION TWO TRAINING OFFER CARDS **********/
