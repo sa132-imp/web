@@ -30,11 +30,7 @@ htm {
   font: bold 5vw sans-serif;
   color:white;
 }
-htp {
 
-  writing-mode:vertical-rl;
-  transform: rotate(180deg);
-}
 em {
   position: absolute;
   top: 1.4vw;
@@ -168,6 +164,17 @@ figure .image-2:nth-child(9) {
   left: 2vw;
   transform: rotate(90deg);
 }
+
+.prm {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 10vw;
+  left: 14vw;
+  display: none;
+  font: bold 4vw sans-serif;
+  color:grey;
+  }
 
 /********** SECTION TWO TRAINING OFFER CARDS **********/
 .wrap{
@@ -567,10 +574,11 @@ background-color: #6482b8;
     }
     .rotate {
       display: block;
-      font: bold 4vw sans-serif;
-      color:grey;
     }
+    .prm {
+      display: block;
   }
+}
 
   @media only screen and (orientation:portrait){
     body {
