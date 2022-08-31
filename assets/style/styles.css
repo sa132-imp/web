@@ -152,15 +152,15 @@ figure .image-2:nth-child(9) {
 }
 
 .rotate {
-  width: 15vw;
-  height: 12vw;
+  width: 30vw;
+  height: 23vw;
   position: absolute;
   background-image: url("../images/rotate.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: none;
-  top: 0;
-  left: 0;
+  top: 20vw;
+  left: 2vw;
 }
 
 /********** SECTION TWO TRAINING OFFER CARDS **********/
