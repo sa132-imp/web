@@ -31,8 +31,7 @@ htm {
   color:white;
 }
 htp {
-  font: bold 4vw sans-serif;
-  color:grey;
+
   writing-mode:vertical-rl;
   transform: rotate(180deg);
 }
@@ -568,6 +567,8 @@ background-color: #6482b8;
     }
     .rotate {
       display: block;
+      font: bold 4vw sans-serif;
+      color:grey;
     }
   }
 
