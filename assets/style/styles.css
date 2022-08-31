@@ -31,8 +31,10 @@ htm {
   color:white;
 }
 htp {
+  font: bold 4vw sans-serif;
+  color:grey;
   writing-mode:vertical-rl;
-  transform: rotate(180deg);
+  transform: rotate(-90deg);
 }
 em {
   position: absolute;
