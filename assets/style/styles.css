@@ -30,7 +30,10 @@ htm {
   font: bold 5vw sans-serif;
   color:white;
 }
-
+htp {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+}
 em {
   position: absolute;
   top: 1.4vw;
@@ -162,7 +165,7 @@ figure .image-2:nth-child(9) {
   display: none;
   top: 20vw;
   left: 2vw;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .prm {
@@ -574,6 +577,8 @@ background-color: #6482b8;
     }
     .rotate {
       display: block;
+      font: bold 4vw sans-serif;
+      color:grey;
     }
     .prm {
       display: block;
