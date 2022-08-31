@@ -151,6 +151,18 @@ figure .image-2:nth-child(9) {
   transform: translateY(-60px);
 }
 
+.rotate {
+  width: 15vw;
+  height: 12vw;
+  position: absolute;
+  background-image: url("../images/rotate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
 /********** SECTION TWO TRAINING OFFER CARDS **********/
 .wrap{
   width: 100%;
@@ -546,6 +558,9 @@ background-color: #6482b8;
     }
     .layout section {
       font-size: 40px;
+    }
+    .rotate {
+      display: block;
     }
   }
 
