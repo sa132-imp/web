@@ -1,0 +1,94 @@
+/*** ALL PAGE STYLES ***/
+
+html {
+  scrollbar-width: none;
+}
+body {
+  background-color: #005eb8;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* NEW full window width */
+  font-family: sans-serif;
+  overflow: hidden scroll;
+  -ms-overflow-style: none;
+}
+
+a { 
+  font: bold 1.5vw sans-serif;
+  color:lightsteelblue;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+htl {
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+  font: bold 3.1vw sans-serif;
+  color:white;
+}
+
+h2 {
+  font: 1.3vw sans-serif;
+}
+h3 {
+  transform: scale(1.6);
+}
+.blank {
+  background-color: #005eb8;
+}
+
+/********** SECTION 1 LOGO BLINDS **********/
+
+.frame {
+  position: relative;
+  top: 1vw;
+  left: 1vw;
+  width: 10vw;
+  height: 6.5vw;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+figure {
+  width: 50%;
+  height: 50%;
+}
+figure .image-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/MDC_logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  
+}
+
+.rotate {
+  width: 30vw;
+  height: 23vw;
+  position: absolute;
+  background-image: url("../images/rotate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  top: 20vw;
+  left: 2vw;
+  transform: rotate(-90deg);
+}
+
+.prm {
+  writing-mode:vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 10vw;
+  left: 14vw;
+  display: none;
+  font: bold 4vw sans-serif;
+  color:grey;
+  }
+
