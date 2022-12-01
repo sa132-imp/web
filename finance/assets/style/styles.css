@@ -13,6 +13,7 @@ body {
 a { 
   font: bold 1.5vw sans-serif;
   color:lightsteelblue;
+  line-height: 1.3vw;
 }
 
 a:hover {
@@ -81,8 +82,8 @@ figure .image-1 {
       font: bold 6vw sans-serif;
   }
   .frame {
-    width: 15vw;
-    height: 9.7vw;
+    width: 30vw;
+    height: 19vw;
   }
   figure {
     width: 50%;
