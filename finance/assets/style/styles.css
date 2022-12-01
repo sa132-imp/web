@@ -10,10 +10,15 @@ body {
   -ms-overflow-style: none;
 }
 
+.links {
+  top: 35vw;
+  left: 1vw;
+}
+
 a { 
   font: bold 1.5vw sans-serif;
   color:lightsteelblue;
-  line-height: 1.3vw;
+  line-height: 2vw;
 }
 
 a:hover {
@@ -26,6 +31,7 @@ htl {
   left: 1vw;
   font: bold 3.1vw sans-serif;
   color:white;
+  line-height: 7vw;
 }
 
 .blank {
