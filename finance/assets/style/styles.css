@@ -17,6 +17,10 @@ body {
   padding-top: 1vw;
 }
 
+.links-mobile {
+  display: none;
+}
+
 a { 
   font: bold 2vw sans-serif;
   color:lightsteelblue;
@@ -89,7 +93,7 @@ figure .image-1 {
   }
         
   .htl {
-    font: bold 8vw sans-serif;
+    font: bold 7vw sans-serif;
   }
 
   .frame {
@@ -101,4 +105,11 @@ figure .image-1 {
     height: 50%;
   }
   
+  .links {
+    display: none;
+  }
+
+  .links-mobile {
+    display: contents;
+  }
 }
