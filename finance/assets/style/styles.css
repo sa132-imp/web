@@ -97,17 +97,17 @@ figure .image-1 {
     body {
       height: 100vw;
       background-color: red;
-}
+  }
     a { 
-      font: bold 2.5vw sans-serif;
+      font: bold 3vw sans-serif;
       color:green;
-}
+  }
     a:hover {
     color: hotpink;
-}
+  }
         
-        htl {
-          font: bold 5.1vw sans-serif;
-        }
+    htl {
+      font: bold 6vw sans-serif;
+  }
 
 }
