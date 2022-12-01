@@ -1,8 +1,5 @@
 /*** ALL PAGE STYLES ***/
 
-html {
-  scrollbar-width: none;
-}
 body {
   background-color: #005eb8;
   margin: 0;
@@ -95,5 +92,18 @@ figure .image-1 {
   @media only screen and (orientation:portrait){
     body {
       height: 100vw;
-    }
-  }
+      background-color: red;
+}
+    a { 
+      font: bold 2.5vw sans-serif;
+      color:green;
+}
+    a:hover {
+    color: hotpink;
+}
+        
+        htl {
+          font: bold 5.1vw sans-serif;
+        }
+
+}
