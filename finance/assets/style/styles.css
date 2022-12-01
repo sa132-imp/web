@@ -81,11 +81,11 @@ figure .image-1 {
   @media only screen and (min-device-width : 320px) and (max-device-width : 700px)  {
     body {
       height: 100vw;
-      background-color: red;
+      background-color: #005eb8;
   }
     a { 
       font: bold 4vw sans-serif;
-      color:green;
+      color:lightsteelblue;
       line-height: 10vw;
   }
     a:hover {
