@@ -37,6 +37,10 @@ h3 {
   background-color: #005eb8;
 }
 
+.stat {
+display: none;  
+}
+
 /********** SECTION 1 LOGO BLINDS **********/
 
 .frame {
@@ -89,7 +93,7 @@ figure .image-1 {
   color:grey;
   }
 
-  @media only screen and (orientation:portrait){
+  @media only screen and (min-device-width: 480px) {
     body {
       height: 100vw;
       background-color: red;
