@@ -27,12 +27,6 @@ htl {
   color:white;
 }
 
-h2 {
-  font: 1.3vw sans-serif;
-}
-h3 {
-  transform: scale(1.6);
-}
 .blank {
   background-color: #005eb8;
 }
@@ -41,7 +35,7 @@ h3 {
 display: none;  
 }
 
-/********** SECTION 1 LOGO BLINDS **********/
+/********** LOGO **********/
 
 .frame {
   position: relative;
@@ -66,32 +60,9 @@ figure .image-1 {
   background-size: cover;
   top: 0;
   left: 0;
-  
 }
 
-.rotate {
-  width: 30vw;
-  height: 23vw;
-  position: absolute;
-  background-image: url("../images/rotate.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: none;
-  top: 20vw;
-  left: 2vw;
-  transform: rotate(-90deg);
-}
-
-.prm {
-  writing-mode:vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  top: 10vw;
-  left: 14vw;
-  display: none;
-  font: bold 4vw sans-serif;
-  color:grey;
-  }
+/********** MOBILE **********/
 
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
     body {
@@ -109,5 +80,13 @@ figure .image-1 {
     htl {
       font: bold 6vw sans-serif;
   }
-
+  .frame {
+    width: 15vw;
+    height: 9.7vw;
+  }
+  figure {
+    width: 50%;
+    height: 50%;
+  }
+  
 }
