@@ -11,27 +11,30 @@ body {
 }
 
 .links {
-  top: 35vw;
-  left: 1vw;
+
+  width: 95%;
+  padding-left: 2vw;
+  padding-top: 1vw;
 }
 
 a { 
-  font: bold 1.5vw sans-serif;
+  font: bold 2vw sans-serif;
   color:lightsteelblue;
-  line-height: 2vw;
+  line-height: 3vw;
 }
 
 a:hover {
   color: hotpink;
 }
 
-htl {
+.htl {
   position: relative;
   top: 2vw;
-  left: 1vw;
+  left: 2vw;
   font: bold 3.1vw sans-serif;
   color:white;
-  line-height: 7vw;
+  line-height: 5vw;
+  padding-bottom: 2vw;
 }
 
 .blank {
@@ -47,7 +50,7 @@ display: none;
 .frame {
   position: relative;
   top: 1vw;
-  left: 1vw;
+  left: 2vw;
   width: 10vw;
   height: 6.5vw;
   border-radius: 2px;
@@ -71,22 +74,24 @@ figure .image-1 {
 
 /********** MOBILE **********/
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+  @media only screen and (min-device-width : 320px) and (max-device-width : 700px)  {
     body {
       height: 100vw;
       background-color: red;
   }
     a { 
-      font: bold 3vw sans-serif;
+      font: bold 4vw sans-serif;
       color:green;
+      line-height: 5vw;
   }
     a:hover {
     color: hotpink;
   }
         
-    htl {
-      font: bold 6vw sans-serif;
+  .htl {
+    font: bold 8vw sans-serif;
   }
+
   .frame {
     width: 30vw;
     height: 19vw;
